@@ -15,13 +15,13 @@ export class AppComponent {
   displayYes: boolean = true;
   inputValue: string = '';
   gifs: string[] = [
-    "background-image: url('../assets/images/Asking.gif');",
-    "background-image: url('../assets/images/No1.gif');",
-    "background-image: url('../assets/images/uwu.gif');",
-    "background-image: url('../assets/images/noChoice.gif');",
-    "background-image: url('../assets/images/rly.gif');",
-    "background-image: url('../assets/images/double.gif');",
-    "background-image: url('../assets/images/loveYou.gif');",
+    "background-image: url('./assets/images/Asking.gif');",
+    "background-image: url('./assets/images/No1.gif');",
+    "background-image: url('./assets/images/uwu.gif');",
+    "background-image: url('./assets/images/noChoice.gif');",
+    "background-image: url('./assets/images/rly.gif');",
+    "background-image: url('./assets/images/double.gif');",
+    "background-image: url('./assets/images/loveYou.gif');",
   ];
   displayInput = false;
   displayMessage = false;
